@@ -1,0 +1,81 @@
+<section id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title">{{ ts.t('contact_title') }} <span class="accent">{{ ts.t('contact_title_accent') }}</span></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-left">
+        <p class="contact-lead">{{ ts.t('contact_lead') }}</p>
+        <div class="contact-details">
+          <a [href]="'mailto:' + data.email" class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">{{ ts.t('contact_label_email') }}</span>
+              <span class="contact-value">{{ data.email }}</span>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">{{ ts.t('contact_label_location') }}</span>
+              <span class="contact-value">{{ data.location }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a [href]="data.github"   target="_blank" rel="noopener" class="contact-social-link">GitHub</a>
+          <span>/</span>
+          <a [href]="data.linkedin" target="_blank" rel="noopener" class="contact-social-link">LinkedIn</a>
+        </div>
+      </div>
+
+      <form class="contact-form" (ngSubmit)="onSubmit()" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" id="fname" name="name" [(ngModel)]="formData.name" required placeholder=" ">
+            <label for="fname">{{ ts.t('contact_name_field') }}</label>
+            <div class="form-underline"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="femail" name="email" [(ngModel)]="formData.email" required placeholder=" ">
+            <label for="femail">{{ ts.t('contact_email_field') }}</label>
+            <div class="form-underline"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea id="fmessage" name="message" [(ngModel)]="formData.message" rows="5" required placeholder=" "></textarea>
+          <label for="fmessage">{{ ts.t('contact_message_field') }}</label>
+          <div class="form-underline"></div>
+        </div>
+        <div class="form-privacy">
+          <input type="checkbox" id="fprivacy" name="privacy" [(ngModel)]="formData.privacy">
+          <label for="fprivacy">{{ ts.t('contact_privacy') }}</label>
+        </div>
+
+        <div #turnstileContainer class="turnstile-container"></div>
+
+        <button type="submit" class="btn btn-primary btn-submit magnetic" [disabled]="sending()">
+          <span>{{ sending() ? ts.t('contact_sending') : ts.t('contact_send') }}</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="22" y1="2" x2="11" y2="13"/>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+        <div class="form-success">{{ successMsg() }}</div>
+      </form>
+    </div>
+  </div>
+</section>
