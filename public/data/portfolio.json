@@ -1,0 +1,68 @@
+{
+  "name": "Lyonel Berzen",
+  "title": "Frontend Developer",
+  "roles": ["Frontend Developer", "Angular Developer", "NodeJS"],
+  "location": "Thuringia, Germany",
+  "email": "info@lyonelberzen.dev",
+  "website": "https://lyonelberzen.dev",
+  "github": "https://github.com/Mori-Takahashi",
+  "linkedin": "https://www.linkedin.com/in/lyonelberzen-dev/",
+  "available": true,
+  "bio": "Hi, I'm a German speaking Frontend Developer based in Thuringia, motivated by the limitless opportunities within IT.",
+  "bio2": "I am excited about crafting visually captivating and intuitive websites and applications. Programming isn't just about writing code — it's a creative form of problem-solving. I distill complex technical challenges into simple, user-friendly solutions.",
+  "tags": ["Remote Ready", "Problem Solver", "Team Player", "Growth Mindset", "Creative"],
+  "stats": [
+    { "value": 5, "suffix": "+", "label": "Projects" },
+    { "value": 14, "suffix": "+", "label": "Technologies" },
+    { "value": 100, "suffix": "%", "label": "Remote" },
+    { "value": 2, "suffix": "", "label": "Languages" }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "⚡",
+      "items": [
+        { "name": "HTML5", "icon": "assets/icons/HTML.svg" },
+        { "name": "CSS3", "icon": "assets/icons/CSS.svg" },
+        { "name": "JavaScript", "icon": "assets/icons/JavaScript.svg" },
+        { "name": "TypeScript", "icon": "assets/icons/TypeScript.svg" }
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "icon": "🔧",
+      "items": [
+        { "name": "Node.js", "icon": "assets/icons/jsIconWhite.svg" },
+        { "name": "Angular", "icon": "assets/icons/angular.svg" },
+        { "name": "Bootstrap", "icon": "assets/icons/bootstrap-fill.svg" },
+        { "name": "Material Design", "icon": "assets/icons/Material_Design.svg" }
+      ]
+    },
+    {
+      "category": "Tools & Backend",
+      "icon": "🛠",
+      "items": [
+        { "name": "Firebase", "icon": "assets/icons/Firebase.svg" },
+        { "name":  "Rawilway", "icon": "assets/icons/railway-logo-light.svg"},
+        { "name":  "Hostinger / VPS", "icon": "assets/icons/hostinger-logo-withe.svg"},
+        { "name": "REST API", "icon": "assets/icons/Rest-Api.svg" },
+        { "name": "Git", "icon": "assets/icons/Git.svg" },
+        { "name": "Scrum", "icon": "assets/icons/Scrum.svg" }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Philipp Buckstegen",
+      "role": "Colleague",
+      "image": "assets/colleagues_img/philipp.jpg",
+      "text": "Working with Lyonel was always professional, focused and respectful. Lyonel enhanced our Projects with innovative and creative solutions. Notably, his humor consistently created a motivating work atmosphere. Lyonel was a valuable asset to our team, and we look forward to more projects together."
+    },
+    {
+      "name": "Tayfun Aya",
+      "role": "Colleague",
+      "image": "assets/colleagues_img/ty.png",
+      "text": "Working with Lyonel Berzen was consistently rewarding and enjoyable. His youthful dynamism and talent add substantial value to any project. He brings a friendly and encouraging atmosphere to the team, allowing us to excel and deliver our best work. Lyonel remains calm and focused under pressure, always willing to learn new skills and tackle challenges with motivation and discipline."
+    }
+  ]
+}

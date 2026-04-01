@@ -1,0 +1,47 @@
+<section id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">{{ ts.t('testimonials_title') }} <span class="accent">{{ ts.t('testimonials_title_accent') }}</span></h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="testimonials-wrapper">
+      <div class="testimonials-track">
+        @for (t of testimonials; track t.name; let i = $index) {
+          <div class="testimonial-card" [class.active]="i === activeIndex()">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">{{ t.text }}</p>
+            <div class="testimonial-author">
+              <img [src]="t.image" [alt]="t.name" loading="lazy">
+              <div>
+                <div class="author-name">{{ t.name }}</div>
+                <div class="author-role">{{ t.role }}</div>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+
+      <div class="testimonial-controls">
+        <button class="ctrl-btn" (click)="prev()" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M19 12H5M12 5l-7 7 7 7"/>
+          </svg>
+        </button>
+
+        <div class="ctrl-dots">
+          @for (t of testimonials; track t.name; let i = $index) {
+            <div class="dot" [class.active]="i === activeIndex()" (click)="goTo(i)"></div>
+          }
+        </div>
+
+        <button class="ctrl-btn" (click)="next()" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

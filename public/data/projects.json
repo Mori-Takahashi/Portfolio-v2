@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "DEMS",
+    "subtitle": "Discord Event Management System",
+    "description": "A self-hosted event management system for Discord communities handling registrations, automation, and analytics through a clean dashboard and bot integration.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Firebase", "Node.js", "Railway"],
+    "image": "assets/project-img/DEMS.png",
+    "liveUrl": "https://join-board.lyonelberzen.dev/",
+    "githubUrl": "",
+    "featured": true,
+    "color": "#ff6600"
+  },
+  {
+    "id": 2,
+    "title": "Join",
+    "subtitle": "Kanban Task Manager",
+    "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Firebase"],
+    "image": "assets/project-img/join.jpg",
+    "liveUrl": "https://join-board.lyonelberzen.dev/",
+    "githubUrl": "https://github.com/Mori-Takahashi/Join-board",
+    "featured": true,
+    "color": "#ff6600"
+  },
+  {
+    "id": 3,
+    "title": "El Pollo Loco",
+    "subtitle": "Browser Game",
+    "description": "A mini Jump and Run game. Collect coins and salsa bottles to defeat the evil chicken boss.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/project-img/el-pollo-loco.jpg",
+    "liveUrl": "https://el-pollo-loco.lyonelberzen.dev/",
+    "githubUrl": "https://github.com/Mori-Takahashi/el-pollo-loco",
+    "featured": true,
+    "color": "#ff6600"
+  },
+  {
+    "id": 4,
+    "title": "Pokédex",
+    "subtitle": "API Search Application",
+    "description": "A Pokédex app that allows you to search for Pokémon by name. Displays detailed information about stats, types and abilities.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "image": "assets/project-img/pokedex.png",
+    "liveUrl": "https://pokedex.lyonelberzen.dev",
+    "githubUrl": "https://github.com/Mori-Takahashi/Pokedex",
+    "featured": false,
+    "color": "#ff6600"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio",
+    "subtitle": "Personal Website",
+    "description": "Personal portfolio website built with Angular. Showcases projects, skills and provides a contact form with multi-language support.",
+    "technologies": ["HTML", "SCSS", "TypeScript", "Angular"],
+    "image": "assets/project-img/portfolio.png",
+    "liveUrl": "https://lyonelberzen.dev",
+    "githubUrl": "https://github.com/Mori-Takahashi/Portfolio",
+    "featured": false,
+    "color": "#ff6600"
+  }
+]
