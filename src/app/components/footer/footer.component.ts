@@ -1,8 +1,10 @@
 import { Component, inject, ViewEncapsulation } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslationService } from '../../services/translation.service';
 
 @Component({
   selector: 'app-footer',
+  imports: [RouterLink],
   template: `
     <footer id="footer">
       <div class="container">
@@ -13,6 +15,8 @@ import { TranslationService } from '../../services/translation.service';
             <a href="mailto:info@lyonelberzen.dev">{{ ts.t('footer_contact') }}</a>
             <span class="footer-sep">·</span>
             <a href="#hero" (click)="scrollTop($event)">{{ ts.t('footer_top') }}</a>
+            <span class="footer-sep">·</span>
+            <a routerLink="/impressum">Impressum</a>
           </div>
         </div>
       </div>
