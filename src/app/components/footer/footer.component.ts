@@ -17,6 +17,8 @@ import { TranslationService } from '../../services/translation.service';
             <a href="#hero" (click)="scrollTop($event)">{{ ts.t('footer_top') }}</a>
             <span class="footer-sep">·</span>
             <a routerLink="/impressum">Impressum</a>
+            <span class="footer-sep">·</span>
+            <a routerLink="/datenschutz">Datenschutz</a>
           </div>
         </div>
       </div>
