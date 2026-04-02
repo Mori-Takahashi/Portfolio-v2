@@ -1,0 +1,34 @@
+component:
+  - changed-files:
+      - any-glob-to-any-file: 'src/app/components/**'
+
+services:
+  - changed-files:
+      - any-glob-to-any-file: 'src/app/services/**'
+
+styles:
+  - changed-files:
+      - any-glob-to-any-file: '**/*.css'
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'angular.json'
+          - 'tsconfig.*'
+          - 'package.json'
+
+assets:
+  - changed-files:
+      - any-glob-to-any-file: 'public/**'
+
+tests:
+  - changed-files:
+      - any-glob-to-any-file: '**/*.spec.ts'
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**'
+
+models:
+  - changed-files:
+      - any-glob-to-any-file: 'src/app/models/**'
