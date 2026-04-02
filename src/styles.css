@@ -307,8 +307,8 @@ section { padding: 120px 0; position: relative; }
 .hero-img-decoration { position: absolute; bottom: -10px; right: -10px; width: 100px; height: 100px; background: var(--orange-dim); border: 1px solid var(--orange-bd); border-radius: 20px; z-index: 0; }
 .floating-card { position: absolute; display: flex; align-items: center; gap: 8px; padding: 10px 18px; background: rgba(14,14,14,0.95); border: 1px solid var(--border); border-radius: 12px; font-size: 13px; font-weight: 600; color: var(--white); backdrop-filter: blur(12px); white-space: nowrap; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
 .floating-card span { font-size: 16px; }
-.card-dev    { top: 10%; left: -30px; animation: float-1 4s ease-in-out infinite; }
-.card-remote { bottom: 15%; right: -30px; animation: float-2 5s ease-in-out infinite; }
+.card-dev    { top: 10%; left: -30px; animation: float-1 4s ease-in-out infinite; z-index: 1; }
+.card-remote { bottom: 15%; right: -30px; animation: float-2 5s ease-in-out infinite; z-index: 1; }
 @keyframes float-1 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 @keyframes float-2 { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
 .hero-scroll-hint { position: absolute; bottom: 2rem; left: 5%; display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 2; }
