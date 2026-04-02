@@ -21,8 +21,7 @@ declare global {
 
 gsap.registerPlugin(ScrollTrigger);
 
-const TURNSTILE_SITEKEY = '1x00000000000000000000AA';
-// TODO: in der Prod. key ändern
+const TURNSTILE_SITEKEY = '0x4AAAAAAAw3NwmDISYzQJ5I';
 // Sitekey	Behavior	Widget Type	Use case
 // Sitekey Portf.: 0x4AAAAAAAw3NwmDISYzQJ5I
 // 1x00000000000000000000AA	Always passes	Visible	Test successful form submissions
