@@ -495,12 +495,14 @@ section { padding: 120px 0; position: relative; }
   font-size: clamp(2rem, 5vw, 3rem);
   color: var(--white);
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .impressum-page p {
   color: var(--text);
   margin-bottom: 1.25rem;
   line-height: 1.8;
+  text-align: center;
 }
 
 .impressum-page strong {
