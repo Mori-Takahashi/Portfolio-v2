@@ -479,6 +479,7 @@ section { padding: 120px 0; position: relative; }
 
 .impressum-page .container {
   max-width: 760px;
+  text-align: center;
 }
 
 .impressum-back {
@@ -514,6 +515,57 @@ section { padding: 120px 0; position: relative; }
   transition: opacity 0.2s var(--ease);
 }
 .impressum-page a:hover { opacity: 0.7; }
+
+/* ── Datenschutz ─────────────────────────────────────────────── */
+.datenschutz-page {
+  min-height: 100vh;
+  padding: 120px 0 80px;
+  background: var(--bg);
+}
+
+.datenschutz-page .container {
+  max-width: 760px;
+  text-align: center;
+}
+
+.datenschutz-page h1 {
+  font-family: var(--head);
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: var(--white);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.datenschutz-page h2 {
+  font-family: var(--head);
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  color: var(--white);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.datenschutz-page h3 {
+  font-size: 1rem;
+  color: var(--orange);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.datenschutz-page p {
+  color: var(--text);
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.datenschutz-page strong {
+  color: var(--white);
+}
+
+.datenschutz-page a {
+  color: var(--orange);
+  transition: opacity 0.2s var(--ease);
+}
+.datenschutz-page a:hover { opacity: 0.7; }
 
 /* ── Reduced Motion ──────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
