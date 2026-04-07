@@ -6,7 +6,7 @@
     "description": "A self-hosted event management system for Discord communities handling registrations, automation, and analytics through a clean dashboard and bot integration.",
     "technologies": ["HTML", "CSS", "JavaScript", "Firebase", "Node.js", "Railway"],
     "image": "assets/project-img/DEMS.png",
-    "liveUrl": "https://join-board.lyonelberzen.dev/",
+    "liveUrl": "https://mori-takahashi.de/dems-landing/",
     "githubUrl": "",
     "featured": true,
     "color": "#ff6600"
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "title": "Portfolio",
+    "title": "Portfolio (old version)",
     "subtitle": "Personal Website",
     "description": "Personal portfolio website built with Angular. Showcases projects, skills and provides a contact form with multi-language support.",
     "technologies": ["HTML", "SCSS", "TypeScript", "Angular"],
