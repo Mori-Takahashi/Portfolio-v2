@@ -69,6 +69,7 @@ const T: Record<Lang, Record<string, string>> = {
     form_agree_privacy: 'Please agree to the privacy policy.',
     form_captcha: 'Please complete the captcha.',
     form_sent: "Message sent! I'll get back to you soon. 🎉",
+    form_error: 'Something went wrong. Please try again.',
   },
   de: {
     // Navbar
@@ -136,6 +137,7 @@ const T: Record<Lang, Record<string, string>> = {
     form_agree_privacy: 'Bitte stimme der Datenschutzerklärung zu.',
     form_captcha: 'Bitte das Captcha ausfüllen.',
     form_sent: 'Nachricht gesendet! Ich melde mich bald bei dir. 🎉',
+    form_error: 'Etwas ist schiefgelaufen. Bitte versuche es erneut.',
   },
 };
 
