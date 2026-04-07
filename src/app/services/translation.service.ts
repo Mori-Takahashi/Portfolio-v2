@@ -20,7 +20,7 @@ const T: Record<Lang, Record<string, string>> = {
     hero_contact_me: 'Contact Me',
     hero_scroll: 'Scroll',
     card_dev: 'Frontend Dev',
-    card_remote: 'Remote Ready',
+    card_remote: 'Remote',
 
     // About
     about_title: 'About',
@@ -87,7 +87,7 @@ const T: Record<Lang, Record<string, string>> = {
     hero_contact_me: 'Kontakt aufnehmen',
     hero_scroll: 'Scrollen',
     card_dev: 'Frontend Dev',
-    card_remote: 'Remote bereit',
+    card_remote: 'Remote',
 
     // About
     about_title: 'Über',
