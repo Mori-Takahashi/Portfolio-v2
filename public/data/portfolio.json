@@ -24,6 +24,7 @@
       "items": [
         { "name": "HTML5", "icon": "assets/icons/HTML.svg" },
         { "name": "CSS3", "icon": "assets/icons/CSS.svg" },
+        { "name": "SCSS", "icon": "assets/icons/scss-svgrepo-com.svg" },
         { "name": "JavaScript", "icon": "assets/icons/JavaScript.svg" },
         { "name": "TypeScript", "icon": "assets/icons/TypeScript.svg" }
       ]
@@ -32,7 +33,6 @@
       "category": "Frameworks",
       "icon": "🔧",
       "items": [
-        { "name": "Node.js", "icon": "assets/icons/jsIconWhite.svg" },
         { "name": "Angular", "icon": "assets/icons/angular.svg" },
         { "name": "Bootstrap", "icon": "assets/icons/bootstrap-fill.svg" },
         { "name": "Material Design", "icon": "assets/icons/Material_Design.svg" }
@@ -42,7 +42,9 @@
       "category": "Tools & Backend",
       "icon": "🛠",
       "items": [
+        { "name": "Node.js", "icon": "assets/icons/jsIconWhite.svg" },
         { "name": "Firebase", "icon": "assets/icons/Firebase.svg" },
+        { "name": "Claude Code", "icon": "assets/icons/claudecode.svg" },
         { "name":  "Rawilway", "icon": "assets/icons/railway-logo-light.svg"},
         { "name":  "Hostinger / VPS", "icon": "assets/icons/hostinger-logo-withe.svg"},
         { "name": "REST API", "icon": "assets/icons/Rest-Api.svg" },
