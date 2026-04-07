@@ -23,7 +23,7 @@ I am a passionate web developer with experience in building dynamic and responsi
   - Discord bot integration
   - Event registration & automation
   - Analytics dashboard
-- **Live Demo**: // TODO: Add link
+- **Live Demo**: [DEMS](https://mori-takahashi.de/dems-landing/)
 - **GitHub**: -
 
 ### Project 2: Join
