@@ -100,13 +100,28 @@ export class ContactComponent implements AfterViewInit, OnDestroy {
     const btn = document.querySelector<HTMLElement>('.btn-submit');
     if (btn) gsap.to(btn, { scale: 0.97, duration: 0.2 });
 
-    await new Promise(r => setTimeout(r, 1200));
+    try {
+      const res = await fetch('https://formspree.io/f/mreojlnp', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, message, 'cf-turnstile-response': this.turnstileToken }),
+      });
 
-    if (btn) gsap.to(btn, { scale: 1, duration: 0.3, ease: 'elastic.out(1, 0.5)' });
-    this.showMsg(this.ts.t('form_sent'), true);
-    this.formData = { name: '', email: '', message: '', privacy: false };
-    this.turnstileToken = '';
-    if (this.widgetId !== undefined) window.turnstile?.reset(this.widgetId);
+      if (btn) gsap.to(btn, { scale: 1, duration: 0.3, ease: 'elastic.out(1, 0.5)' });
+
+      if (res.ok) {
+        this.showMsg(this.ts.t('form_sent'), true);
+        this.formData = { name: '', email: '', message: '', privacy: false };
+        this.turnstileToken = '';
+        if (this.widgetId !== undefined) window.turnstile?.reset(this.widgetId);
+      } else {
+        this.showMsg(this.ts.t('form_error'), false);
+      }
+    } catch {
+      if (btn) gsap.to(btn, { scale: 1, duration: 0.3, ease: 'elastic.out(1, 0.5)' });
+      this.showMsg(this.ts.t('form_error'), false);
+    }
+
     this.sending.set(false);
   }
 
