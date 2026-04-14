@@ -6,6 +6,7 @@ import { HeroComponent }         from '../../components/hero/hero.component';
 import { AboutComponent }        from '../../components/about/about.component';
 import { SkillsComponent }       from '../../components/skills/skills.component';
 import { ProjectsComponent }     from '../../components/projects/projects.component';
+import { ContributionsComponent } from '../../components/contributions/contributions.component';
 import { TestimonialsComponent } from '../../components/testimonials/testimonials.component';
 import { ContactComponent }      from '../../components/contact/contact.component';
 import { FooterComponent }       from '../../components/footer/footer.component';
@@ -18,6 +19,7 @@ import { FooterComponent }       from '../../components/footer/footer.component'
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
+    ContributionsComponent,
     TestimonialsComponent,
     ContactComponent,
     FooterComponent,

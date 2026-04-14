@@ -8,6 +8,7 @@ const T: Record<Lang, Record<string, string>> = {
     nav_about: 'About',
     nav_skills: 'Skills',
     nav_projects: 'Projects',
+    nav_contributions: 'Open Source',
     nav_reviews: 'Reviews',
     nav_contact: 'Contact',
     nav_hire: 'Hire Me',
@@ -40,6 +41,14 @@ const T: Record<Lang, Record<string, string>> = {
     projects_title_accent: 'Projects',
     projects_live: 'Live Demo',
     projects_github: 'GitHub',
+
+    // Contributions
+    contributions_title: 'Open Source',
+    contributions_title_accent: 'Contributions',
+    contributions_type: 'Type',
+    contributions_view_pr: 'View PR',
+    contributions_view_repo: 'Repository',
+    contributions_merged: 'Merged',
 
     // Testimonials
     testimonials_title: 'What People',
@@ -76,6 +85,7 @@ const T: Record<Lang, Record<string, string>> = {
     nav_about: 'Über mich',
     nav_skills: 'Skills',
     nav_projects: 'Projekte',
+    nav_contributions: 'Open Source',
     nav_reviews: 'Bewertungen',
     nav_contact: 'Kontakt',
     nav_hire: 'Jetzt anfragen',
@@ -108,6 +118,14 @@ const T: Record<Lang, Record<string, string>> = {
     projects_title_accent: 'Projekte',
     projects_live: 'Live Demo',
     projects_github: 'GitHub',
+
+    // Contributions
+    contributions_title: 'Open Source',
+    contributions_title_accent: 'Beiträge',
+    contributions_type: 'Typ',
+    contributions_view_pr: 'Pull Request',
+    contributions_view_repo: 'Repository',
+    contributions_merged: 'Gemerged',
 
     // Testimonials
     testimonials_title: 'Was andere',

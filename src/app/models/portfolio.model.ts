@@ -22,6 +22,15 @@ export interface Testimonial {
   text: string;
 }
 
+export interface OpenSourceContribution {
+  project: string;
+  description: string;
+  type: string;
+  prUrl: string;
+  repoUrl: string;
+  merged: boolean;
+}
+
 export interface PortfolioData {
   name: string;
   title: string;
@@ -38,6 +47,7 @@ export interface PortfolioData {
   stats: Stat[];
   skills: SkillCategory[];
   testimonials: Testimonial[];
+  contributions: OpenSourceContribution[];
 }
 
 export interface Project {
