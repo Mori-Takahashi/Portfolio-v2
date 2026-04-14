@@ -20,8 +20,9 @@ export class NavbarComponent implements AfterViewInit, OnDestroy {
   readonly navItems = computed(() => [
     { id: 'about',        label: this.ts.t('nav_about') },
     { id: 'skills',       label: this.ts.t('nav_skills') },
-    { id: 'projects',     label: this.ts.t('nav_projects') },
-    { id: 'testimonials', label: this.ts.t('nav_reviews') },
+    { id: 'projects',      label: this.ts.t('nav_projects') },
+    { id: 'contributions', label: this.ts.t('nav_contributions') },
+    { id: 'testimonials',  label: this.ts.t('nav_reviews') },
     { id: 'contact',      label: this.ts.t('nav_contact') },
   ]);
 

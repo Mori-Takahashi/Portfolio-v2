@@ -53,6 +53,16 @@
       ]
     }
   ],
+  "contributions": [
+    {
+      "project": "European Alternatives",
+      "description": "Added new European alternative entries to help users find EU-based software and services.",
+      "type": "Feature",
+      "prUrl": "https://github.com/TheMorpheus407/european-alternatives/pull/255",
+      "repoUrl": "https://github.com/TheMorpheus407/european-alternatives",
+      "merged": true
+    }
+  ],
   "testimonials": [
     {
       "name": "Philipp Buckstegen",
