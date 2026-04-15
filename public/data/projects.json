@@ -4,7 +4,7 @@
     "title": "DEMS",
     "subtitle": "Discord Event Management System",
     "description": "A self-hosted event management system for Discord communities handling registrations, automation, and analytics through a clean dashboard and bot integration.",
-    "technologies": ["HTML", "CSS", "JavaScript", "Firebase", "Node.js", "Railway"],
+    "technologies": ["HTML", "CSS", "JavaScript", "Firebase", "Node.js", "Railway", "Discord.js"],
     "image": "assets/project-img/DEMS.png",
     "liveUrl": "https://mori-takahashi.de/dems-landing/",
     "githubUrl": "",
@@ -13,6 +13,18 @@
   },
   {
     "id": 2,
+    "title": "Spielersuche",
+    "subtitle": "Discord Player Search Bot",
+    "description": "A Discord bot that brings structured player search directly to your server. Start searches by game, mode and player count via slash command, get matched into temporary private channels, and manage your community with LFG roles, a ban system and full multi-server support.",
+    "technologies": ["Node.js", "JavaScript", "Discord.js", "Railway", "MongoDB"],
+    "image": "assets/project-img/spielersuche.png",
+    "liveUrl": "https://mori-takahashi.de/spielersuche/",
+    "githubUrl": "",
+    "featured": true,
+    "color": "#ff6600"
+  },
+  {
+    "id": 3,
     "title": "Join",
     "subtitle": "Kanban Task Manager",
     "description": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
@@ -24,7 +36,7 @@
     "color": "#ff6600"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "El Pollo Loco",
     "subtitle": "Browser Game",
     "description": "A mini Jump and Run game. Collect coins and salsa bottles to defeat the evil chicken boss.",
@@ -36,7 +48,7 @@
     "color": "#ff6600"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Pokédex",
     "subtitle": "API Search Application",
     "description": "A Pokédex app that allows you to search for Pokémon by name. Displays detailed information about stats, types and abilities.",
@@ -48,7 +60,7 @@
     "color": "#ff6600"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Portfolio (old version)",
     "subtitle": "Personal Website",
     "description": "Personal portfolio website built with Angular. Showcases projects, skills and provides a contact form with multi-language support.",
